@@ -1,0 +1,68 @@
+* {
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+}
+
+.container {
+   max-width: 1100px;
+   margin: auto;
+
+}
+
+header {
+   background-color: aquamarine;
+}
+
+.logo img {
+   width: 100px;
+}
+
+nav li {
+   display: inline-block;
+}
+
+.logo a {
+   float: left;
+}
+
+nav {
+   float: right;
+   margin-top: 40px;
+}
+
+.gradient {
+   background: linear-gradient(to right, #ccc, lightblue);
+   padding: 130px 0px;
+}
+
+.start {
+   display: inline-block;
+   padding: 15px 38px;
+   background-color: gray;
+   border-radius: 5px;
+   margin-top: 20px;
+   color: white;
+   text-decoration: none;
+}
+
+.images {
+   float: left;
+   max-width: 200px;
+   margin-right: 20px;
+
+}
+
+.content .container {
+   overflow: auto;
+}
+
+.content {
+   padding: 38px 0px;
+}
+
+footer {
+   background: darkgrey;
+   padding: 60px 0px;
+   text-align: right;
+}

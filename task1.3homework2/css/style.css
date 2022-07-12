@@ -1,0 +1,134 @@
+* {
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+}
+
+body {
+   background-color: #FFFAF3;
+   background-image: url(../img/fons.png);
+   background-repeat: no-repeat;
+   background-position: right top;
+}
+
+.container {
+   max-width: 1080px;
+   margin: 0px auto;
+}
+
+.top {
+   border-bottom: 1px solid #C08D5D;
+   max-width: 470px;
+   padding: 53px 0px 32.5px 0px;
+}
+
+.top nav {
+   display: inline-block;
+
+}
+
+.top li {
+   display: inline-block;
+   margin-left: 52px;
+}
+
+.top li:first-child {
+   margin-left: 85px;
+}
+
+.top a {
+   vertical-align: middle;
+   color: black;
+   text-decoration: none;
+   font-family: 'Open Sans', sans-serif;
+   font-size: 20px;
+}
+
+.active a {
+   color: #C08D5D;
+}
+
+main {
+   padding: 132px 0px 68px 0px;
+}
+
+h1 {
+   font-family: 'Yeseva One', cursive;
+   font-size: 70px;
+   letter-spacing: 6%;
+   line-height: 81px;
+   text-transform: uppercase;
+   max-width: 355px;
+
+}
+
+h1 span {
+   display: block;
+   font-family: 'Yeseva One', cursive;
+   font-size: 50px;
+   line-height: 58px;
+   text-transform: none;
+}
+
+h1 span::after {
+   content: url(../img/biglogo.svg);
+   display: inline-block;
+   vertical-align: middle;
+   margin-left: 8px;
+   height: 69px;
+   width: 45px;
+}
+
+h1::after {
+   content: url(../img/vector.svg);
+   overflow: auto;
+   display: block;
+
+}
+
+.text p {
+   font-family: 'Open Sans', sans-serif;
+   font-size: 18px;
+   line-height: 27px;
+   letter-spacing: 6%;
+   color: #3F4042;
+   max-width: 535px;
+}
+
+.text a {
+   display: inline-block;
+   margin-top: 72px;
+   background-color: FFFAF3;
+   color: #3F4042;
+   text-decoration: none;
+   padding-left: 15px;
+   line-height: 64px;
+   width: 197px;
+   border: 2px #C08D5D solid;
+   font-family: 'Open Sans', sans-serif;
+   font-size: 20px;
+   line-height: 29px;
+   letter-spacing: 6%;
+}
+
+
+.text a::after {
+   content: url(../img/vector2.svg);
+   display: inline-block;
+   width: 61px;
+   background-color: #C08D5D;
+   line-height: 64px;
+   text-align: center;
+   margin-left: 14.9px;
+}
+
+.mause {
+   display: block;
+   margin: 0px auto;
+   background-image: url(../img/mouse.svg);
+   width: 34px;
+   height: 70px;
+   margin-top: 53px;
+   scroll-behavior: auto;
+
+}
